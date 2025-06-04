@@ -1,1 +1,7 @@
-# AI-Legal-Advisor-Project-Documents
+# AI-Legal-Advisor
+ABSTRACT
+The AI Legal Advisor is an AI-powered web application developed to improve the efficiency, transparency, and responsiveness of legal grievance redressal systems. Traditional methods of handling citizen petitions are often manual and time-consuming, resulting in delayed resolutions and lack of proper case categorization. This system aims to overcome those issues by introducing automation at various stages of the petition lifecycle, starting from submission and classification to lawyer assignment and real-time status tracking.
+
+At the heart of the system is a fine-tuned BERT model that analyzes the textual content of petitions and classifies them into categories such as Criminal, Civil, or Invalid. The integration of semantic techniques like TF-IDF and cosine similarity allows the system to identify recurring or duplicate petitions, helping streamline administrative workload. A structured lawyer-matching module further enhances the system by assigning relevant legal professionals based on the nature of the case and the petitioner’s district, ensuring that each grievance receives proper legal attention.
+
+The system is built using Python with Flask for the web framework and SQLite for database management. A role-based interface supports users, administrators, and lawyers, each with dedicated dashboards for case tracking and updates. This modular design ensures scalability and ease of use. By automating petition management and improving communication between citizens and legal professionals, the AI Legal Advisor provides a reliable and intelligent approach to modernizing public grievance handling in the legal domain.
